@@ -10,7 +10,7 @@ align-items: center;
 justify-content: space-between;}
 .banner-container{
   width: 1440px;
-  border: 2px solid red;
+  border: 2px none;
   min-height: 452px;
   background-image: url('../assets/Hero-bg.png');
   background-size: cover;
@@ -31,3 +31,30 @@ color: white;
 border: none;
 width: 208px;
 height: 66px;}
+/* main styles */
+.main-section{border: 2px solid none;
+  align-items: center;
+margin-left: 105px;
+margin-top: 105px;}
+.section{display: flex;
+align-items: center;
+justify-content: space-between;}
+.main-section{ width: 900px;
+height: 942px;}
+.web{font-size: medium;
+align-items: center;}
+.youtube{margin-right: 100px;
+padding: 150px 150px;text-align: center;}
+.main-section{border: radius 0;;
+  padding: 150px 150px;text-align: center;
+background-color: rgba(13, 19, 33, 0.02);}
+
+/* My Current Target */
+.target{display: flex;
+gap: 24;}
+.skill-html{padding: 30;background-color: rgba(255, 76, 30, 0.05);}
+.my{margin-right: 100px;
+  padding: 150px 150px;text-align: center;}
+  .skill-css{padding: 30;background-color: rgba(0, 76, 232, 0.05);}
+  .skill-js{padding: 30;background-color: rgba(255, 223, 0, 0.05);}
+  
