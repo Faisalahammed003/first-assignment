@@ -32,6 +32,7 @@ border: none;
 width: 208px;
 height: 66px;}
 /* main styles */
+
 .main-section{border: 2px solid none;
   align-items: center;
 margin-left: 105px;
@@ -67,14 +68,15 @@ border: 2px solid;
 margin-top: 50px;
 min-height: 800px;}
 #form{display: flex;
-align-items: start;
+align-items: center;
 flex-direction: column;
 justify-content:center;
 height: 555px;color: aliceblue;}
 .fo{margin-left: 60px;}
 .btn{margin-left: 250px;
-margin-top: 40px;
-border-color: red;}
+margin-top: 40px;font-weight: bold;
+font-size: 30px;
+}
 
 /* footer style */
 .footer{margin-top: 50px;
