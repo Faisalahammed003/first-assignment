@@ -45,16 +45,33 @@ height: 942px;}
 align-items: center;}
 .youtube{margin-right: 100px;
 padding: 150px 150px;text-align: center;}
-.main-section{border: radius 0;;
+.main-section{border: 0;
   padding: 150px 150px;text-align: center;
 background-color: rgba(13, 19, 33, 0.02);}
 
 /* My Current Target */
-.target{display: flex;
-gap: 24;}
-.skill-html{padding: 30;background-color: rgba(255, 76, 30, 0.05);}
+.target{display: flex;}
+.skill-html{background-color:rgba(255, 76, 30, 0.05);
+  border: 2px none ;margin-right:30PX;}
 .my{margin-right: 100px;
-  padding: 150px 150px;text-align: center;}
-  .skill-css{padding: 30;background-color: rgba(0, 76, 232, 0.05);}
-  .skill-js{padding: 30;background-color: rgba(255, 223, 0, 0.05);}
-  
+  padding:0px;text-align: center;}
+  .skill-css{padding: 30px;background-color: rgba(0, 76, 232, 0.05);
+    border: 2px solid none;}
+  .skill-js{padding: 30px ;background-color: rgba(255, 223, 0, 0.05);
+  border: 2px none;
+margin-left: 30px;}
+.form{background-image: url('../assets/handshake.jpg');
+width: 1420px;
+margin: 0 auto;
+border: 2px solid;
+margin-top: 50px;
+min-height: 800px;}
+#form{display: flex;
+align-items: start;
+flex-direction: column;
+justify-content:center;
+height: 555px;color: aliceblue;}
+.fo{margin-left: 60px;}
+.btn{margin-left: 250px;
+margin-top: 40px;
+border-color: red;}
