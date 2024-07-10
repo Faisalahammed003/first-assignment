@@ -30,9 +30,10 @@ font-size: 20px;
 color: white;
 border: none;
 width: 208px;
-height: 66px;}
+height: 66px;
+text-decoration: none;
+text-decoration-line: none;}
 /* main styles */
-
 .main-section{border: 2px solid none;
   align-items: center;
 margin-left: 105px;
