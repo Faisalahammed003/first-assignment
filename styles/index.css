@@ -75,3 +75,9 @@ height: 555px;color: aliceblue;}
 .btn{margin-left: 250px;
 margin-top: 40px;
 border-color: red;}
+
+/* footer style */
+.footer{margin-top: 50px;
+display: flex;
+justify-content: space-between;
+background-color: rgba(13, 19, 33, 0.03);}
